@@ -10,5 +10,13 @@ a {
     text-decoration: none;
     color: black;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
 }
